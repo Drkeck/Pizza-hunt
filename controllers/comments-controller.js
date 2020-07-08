@@ -44,3 +44,5 @@ const commentController = {
             .catch(err => res.json(err));
     }
 };
+
+module.exports = commentController;
